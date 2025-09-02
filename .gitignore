@@ -1,0 +1,41 @@
+# Vendor files
+vendor/
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Log files
+*.log
+logs/
+
+# Upload directories
+uploads/
+storage/
+
+# Cache files
+cache/
+*.cache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*~
+
+# Config files with sensitive data
+src/config/database.php
+src/config/payment.php
