@@ -158,7 +158,7 @@ class Cart {
         $product = new Product();
         $image = $product->getPrimaryImage($productId);
         
-        return $image ? $image['image_path'] : 'assets/images/placeholder.jpg';
+        return $image ? $image['image_path'] : 'assets/images/placeholder.svg';
     }
     
     public function validateStock() {
